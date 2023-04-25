@@ -1,0 +1,40 @@
+:root {
+    --primary: #300952;
+    --secondary: #095052;
+    --uncheck: #520C09; 
+    --check: #2B5209;
+    --white: #ffffff;
+    --black: #000000;
+  }
+
+
+  .task_form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.task_input {
+    width: 350px;
+    font-size: 16px;
+    background-color: var(--white);
+    padding: 12px 30px 12px 8px;
+    border-radius: 4px 0 0 4px;
+    border: 3px solid var(--check);
+    outline: none;
+}
+
+
+.task_button {
+    padding: 14px;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    border: 3px;
+    cursor: pointer;
+    outline: none;
+    background-color: var(--check);
+    color: var(--white);
+    text-transform: capitalize;
+}

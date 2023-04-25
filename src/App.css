@@ -1,0 +1,64 @@
+:root {
+  --primary: #300952;
+  --secondary: #095052;
+  --uncheck: #520C09; 
+  --check: #2B5209;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--primary);
+  color: var(--white);
+  font-family: 'Roboto', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 15px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+h1{
+  color: var(--black);
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  padding-bottom: 5px;
+
+}
+.task_scheduler {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+.logo{
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.logo__img {
+
+  width: 90%;
+  max-height: 100px
+  
+}
+
+.task_list {
+  width: 600px;
+  min-height: 400px;
+  background-color: var(--white);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px var(--black);
+}
